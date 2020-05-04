@@ -1,0 +1,13 @@
+<suite name="Parameter test Suite" verbose="1">
+    <!-- This parameter will be passed to the test in this suite -->
+    <test name="Google Search Test">
+        <parameter name="search-text" value="Automation" />
+        <classes>
+            <class name="test.java.com.sample.tests.GoogleSearchTest">
+                <methods>
+                    <include name="googleSearchTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
